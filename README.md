@@ -19,4 +19,4 @@ Teams take turns coming up with various words to compete at making madlibs. Each
    |   |   |   |    |
  (| O |  O | O  | O |)
   |   |    |    |    |
- (| O |  O |  O |  O |)
+ 
