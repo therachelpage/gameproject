@@ -1,27 +1,33 @@
-<!DOCTYPE html>
 <html>
-<head>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
-<title>Memory Game</title>
-<body>
-<nav class="clearfix">
-  <a href="#instructions">Instructions</a>
-  <a href="#game-board">Game</a>
-</nav>
-<h1>Memory Game</h1>
-<h2 id="instructions">Instructions</h2>
-<p>Concentration, also known as Match Match, Memory, Pelmanism, Shinkei-suijaku, Pexeso or simply Pairs, is a card game in which all of the cards are laid face down on a surface and two cards are flipped face up over each turn. The object of the game is
-  to turn over pairs of matching cards.</p>
-  <div class="board">
-    <div class="card"></div>
-    <div class="card"></div>
-    <div class="card"></div>
-    <div class="card"></div>
-</div>
+  <head>
+    <title>Madlib Wars</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.js"
+      integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+      crossorigin="anonymous"></script>
+  </head>
 
-<footer>Created with ♥ by <span class="name">Rachel</span></footer>
+    <nav>
+    <center><img align="left" width="125" src="http://orig04.deviantart.net/c917/f/2014/010/5/9/eva_baxter_designs____city_scramble_texture_2_by_evatakesnoprisoners-d71ppoc.png"><img align="right" width="125" src="http://orig04.deviantart.net/c917/f/2014/010/5/9/eva_baxter_designs____city_scramble_texture_2_by_evatakesnoprisoners-d71ppoc.png"><font face="arial black"><br><br>>>> MADLIB WARS <<<< </center>
+    </nav><br><br>
 
-<script src="main.js"></script>
+<div class="background"><body background="https://c1.staticflickr.com/5/4003/4636948388_8bba23a529_b.jpg"></div>
+
+  <button type="button" class="team1button">Team 1</button>
+  <button type="button" class="team2button">Team 2</button>
+
+  <div class="t1scoreboard">0
+  </div>
+
+  <div class="t2scoreboard">0
+  </div>
+  <br><br>
+
+<div class="team1madlib">Team 1<br><br><script src="main.js"></script></div>
+<br><br>
+
+<div class="team2madlib">Team 2<br><br><script src="main.js"></script></div>
+<br><br>
 </body>
 </html>
