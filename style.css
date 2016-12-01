@@ -1,0 +1,38 @@
+nav {
+  background-color: purple;
+    height: 100px;
+    background: -webkit-linear-gradient(left top, red, purple); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, red, purple); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, red, purple); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, red, purple); /* Standard syntax (must be last) */
+    font-family: arial;
+    border: 8px solid black;
+    border-style: dotted;
+}
+      }
+
+body {
+  text-align: center;
+  opacity: 0.5;
+}
+
+
+button {
+  border-color: yellow;
+}
+
+.team1madlib{
+  background-color: white;
+  border: 5px solid grey;
+  padding: 10px;
+  opacity: 0.8;
+  font-size: 16;
+}
+
+.team2madlib{
+  background-color: white;
+  border: 5px solid grey;
+  padding: 10px;
+  opacity: 0.8;
+  font-size: 16;
+}
