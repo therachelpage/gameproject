@@ -1,13 +1,18 @@
 nav {
-  background-color: purple;
+  background-color: #ffffff;
     height: 100px;
-    background: -webkit-linear-gradient(left top, red, purple); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(bottom right, red, purple); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(bottom right, red, purple); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to bottom right, red, purple); /* Standard syntax (must be last) */
-    font-family: arial;
-    border: 8px solid black;
+    background: -webkit-linear-gradient(left top, #000000, ##40393a); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #000000, ##40393a); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #000000, ##40393a); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #000000, #40393a); /* Standard syntax (must be last) */
+    font-family: arial black;
+    font-size: 24;
+    color: #ffffff;
+    font-weight: 200;
+    border: 7px solid black;
     border-style: dotted;
+    opacity: 0.7;
+    text-shadow: 4px 4px indigo;
 }
       }
 
@@ -16,23 +21,46 @@ body {
   opacity: 0.5;
 }
 
-
+mark {
+    background-color: #0D8CFC;
+    padding; 20px;
+    color: black;
+}
 button {
-  border-color: yellow;
+  background-color: #0D8CFC;
+  border-color: grey;
+  border-radius: 20px;
+  padding: 10px;
+  float: center;
+  opacity: 0.8;
+  font-size: 16;
+  font-style: bold;
 }
 
 .team1madlib{
   background-color: white;
-  border: 5px solid grey;
+  border: 4px solid indigo;
   padding: 10px;
-  opacity: 0.8;
+  opacity: 0.7;
   font-size: 16;
+  border-radius: 15px;
 }
 
 .team2madlib{
   background-color: white;
-  border: 5px solid grey;
+  border: 4px solid indigo;
   padding: 10px;
-  opacity: 0.8;
+  opacity: 0.7;
   font-size: 16;
+  border-radius: 15px;
+}
+
+.team1displaywinner{
+  background-color: white;
+  font-size: 30;
+}
+
+.team2displaywinner{
+  background-color: white;
+  font-size: 30;
 }
