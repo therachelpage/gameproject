@@ -7,7 +7,7 @@ In the future, this project will be remade so the prompts are replaced by a form
 
 User Stories
 
--I would like two different teams to be able to compete with each other.
+-I would like two different teams to be able to compete with each other.<br>
 -I would like the judges to vote on different categories such as humor and originality.
 -I would like to hear a sound when the teams score points.
 -I would like each teams madlibs to appear next to each other so the judges can compare them directly.
