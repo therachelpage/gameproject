@@ -11,7 +11,7 @@ Teams take turns coming up with various words to compete at making madlibs. Each
 
 Technologies used: HTML / CSS / Javascript / jQuery
 
-Variables such as "noun" and "adjective" are created to signify what kind of words the teams need to choose. After the teams input their words and the code displays their selections, a new integrated block of text which is used as the final madlib appears in a separate div for each team. Team buttons are set so that when one of the buttons is clicked 5 times, an animation dispalys the winner.
+Variables such as "noun" and "adjective" are created to signify what kind of words the teams need to choose. After the teams input their words and the code displays their selections, a new integrated block of text which is used as the final madlib appears in a separate div for each team. Team buttons are set up so that when one of the buttons is clicked 5 times, an animation dispalys the winner.
 
 ![Sample image](./madlibwars.jpg)
 
