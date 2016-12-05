@@ -7,11 +7,11 @@
 
 Teams take turns coming up with various words to compete at making madlibs. Each team is given several prompts in which they get to select words at random. Each teams words are then arranged via Javascript into a madlib and displayed on the screen. After both teams madlibs are displayed, two selected judges award points to the teams based on the categories of originality, humor, and overall performance. Both teams can receive up to 3 points for each category. The first team to reach 5 votes has has the winning madlib and wins the game.
 
-![Sample](./madlibwars.jpg)
-
 Technologies used: HTML / CSS / Javascript / jQuery
 
 Variables such as "noun" and "adjective" are created to signify what kind of words the teams need to choose. After the teams input their words and the code displays their selections, a new integrated block of text which is used as the final madlib appears in a separate div for each team. Team buttons are set so that when one of the buttons is clicked 5 times, an animation dispalys the winner.
+
+![Sample image](./madlibwars.jpg)
 
 ### Future Versions
 
