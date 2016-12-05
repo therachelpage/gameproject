@@ -14,9 +14,10 @@ var $team2MadLib = $('.team2madlib')
 var $team1winner = $('.team1displaywinner')
 var $team2winner = $('.team2displaywinner')
 
-  //Team questions//
+  //Team questions
 
 function runMadLib(madLib){
+  console.log("Running mad lib.")
   var noun = prompt('Choose a noun.');
   var adjective = prompt('Choose an adjective.');
   var verb = prompt('Choose a verb.');
@@ -26,7 +27,7 @@ function runMadLib(madLib){
   var bodypart = prompt('Choose a body part.');
   var animal = prompt('Choose an animal.');
 
-  //The code for the madlib//
+  //The code for the madlib
 
   madLib.append('You wake up one day in Hollywood wearing nothing but a ');
   madLib.append(noun)
@@ -54,8 +55,7 @@ function runMadLib(madLib){
   madLib.append( 's."');
 
 
-  //If the madlib is finished on the 1st team then stop the game. Then run the madlib for the second team under the second div.//
-
+  //If the madlib is finished on the 1st team then stop the game. Then run the madlib for the second team under the second div.
 
   if (currentteam == 1) {
     currentteam = 2
@@ -93,16 +93,19 @@ $button2.click(function() {
 function displayWinner(){
   if (t1score > 4) {
     console.log("Team 1 is the winner!");
-    $team1winner.text("Team 1 is the winner!");
-    // this is where we animate..
-
-    // jquery's $team1winner.animate()
+    $team1winner.text("......Team 1 is the ultimate Madlib Wars champion!");
+    $team1winner.addClass('animated headShake tada infinite')
+    // animation plays
   }
 
   if (t2score > 4) {
     console.log("Team 2 is the winner!");
-    $team2winner.text("Team 2 is the winner!");
-    // this is where we animate...
+    $team2winner.text("......Team 2 is the ultimate Madlib Wars champion!");
+    $team2winner.addClass('animated headShake tada infinite')
+      // animation plays
   }}
 
-displayWinner()
+
+
+//Animate text of $team1winner.text if t1score > 5.
+//Animate text of $team2winner.text if t2score > 2.

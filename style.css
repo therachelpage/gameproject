@@ -56,11 +56,17 @@ button {
 }
 
 .team1displaywinner{
-  background-color: white;
-  font-size: 30;
+  background-color: indigo;
+  font-size: 33;
+  border-radius: 5px;
+  opacity: 0.6;
+  color: white;
 }
 
 .team2displaywinner{
-  background-color: white;
-  font-size: 30;
+  background-color: indigo;
+  font-size: 33;
+  border-radius: 5px;
+  opacity: 0.6;
+  color: white;
 }
