@@ -1,7 +1,7 @@
 # gameproject
 
 
-### Madlib Wars - 1st Version ###
+### Madlib Wars - Version 1###
 
 ### Javascript-based competitive word game with an artistic and minimalist style
 
